@@ -7,7 +7,11 @@ pipeline {
   environment{
      USERNAME = 'siddharth'
      }
-     
+     stages{
+      stage('example'){
+       API_KEY = 'ISCP1234'
+       }
+}
   stages {
   stage('Test-Nodes') {
     steps {
