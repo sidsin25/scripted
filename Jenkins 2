@@ -10,8 +10,7 @@ pipeline{
        }
        steps{
          sh 'printenv'
-       }
-       
+         }
   stages{
       stage('Build'){
        steps{
@@ -26,4 +25,5 @@ pipeline{
         }
        }
       }
+}
 }
