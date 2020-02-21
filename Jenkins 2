@@ -1,5 +1,15 @@
 pipeline{
  agent any
+ environment{
+   USERNAME = 'sidsin25'
+   }
+   stages{
+    stage('Example'){
+      environment{
+       API_KEY = 'ISCP123'
+       }
+       steps{
+       sh 'printenv'
 stages{
       stage('Build'){
        steps{
