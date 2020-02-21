@@ -10,7 +10,7 @@ pipeline {
      }
      
   stages {
-  stage(‘Test-Nodes') {
+  stage('Test-Nodes') {
     steps {
   sh "env"
   // write your code here
