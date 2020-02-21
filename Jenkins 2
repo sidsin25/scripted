@@ -8,8 +8,9 @@ pipeline {
      USERNAME = 'siddharth'
      }
      stages{
-      stage('example'){
-       API_KEY = 'ISCP123'
+      stage('Example'){
+       environment
+       {API_KEY = 'ISCP123'
        }
 }
   stages {
