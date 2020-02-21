@@ -3,6 +3,6 @@ node {
         stage "Stage #"+i
         print 'Hello, world !'
         sh 'ls'
-        git https://github.com/sidsin25/scripted.git
+        git 'https://github.com/sidsin25/scripted.git'
         sh 'pwd'
         }
