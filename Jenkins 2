@@ -9,7 +9,7 @@ pipeline {
      }
      stages{
       stage('example'){
-       API_KEY = 'ISCP1234'
+       API_KEY = 'ISCP123'
        }
 }
   stages {
