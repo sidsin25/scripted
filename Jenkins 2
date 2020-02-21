@@ -9,9 +9,10 @@ pipeline{
        API_KEY = 'ISCP123'
        }
        steps{
-       sh 'printenv'
+         sh 'printenv'
        }
-stages{
+       
+  stages{
       stage('Build'){
        steps{
         sh 'ls'
