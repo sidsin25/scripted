@@ -3,4 +3,5 @@ node {
         stage "Stage #"+i
         print 'Hello, world !'
         sh 'ls'
-        sh 'pwd'}
+        sh 'pwd'
+        }
