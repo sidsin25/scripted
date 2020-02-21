@@ -1,1 +1,16 @@
-pipeline{  agent any  environment{    USERNAME='vatsal'  }  stages{    stage('Example'){      environment{        API_KEY='ISCP123'      }      steps{        sh 'env'      }    }  }}
+pipeline{ 
+agent any  
+environment{    
+USERNAME='vatsal'  
+}  
+stages{    
+ stage('Example'){     
+ environment{        
+ API_KEY='ISCP123'      
+ }      
+ steps{       
+ sh 'env'     
+ }   
+ } 
+ }
+ }
