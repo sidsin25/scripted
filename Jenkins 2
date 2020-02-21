@@ -1,25 +1,39 @@
-pipeline {
-  agent {
-  docker {
-    image 'ibmcom/ibm-cloud-developer-tools-amd64'
-  }
-  }
-  environment{
-     USERNAME = 'siddharth'
-     }
-     stages{
-      stage('Example'){
-       environment {
-       API_KEY = 'ISCP123'
-       }
-}
-  stages {
-  stage('Test-Nodes') {
-    steps {
-  sh "env"
-  // write your code here
+ pipeline{
+
+  agent{
+
+    docker{
+
+      image 'ibmcom/ibm-cloud-developer-tools-amd64'
+
     }
+
   }
+
+  environment{
+
+    USERNAME='vatsal'
+
   }
- }
+
+  stages{
+
+    stage('Example'){
+
+      environment{
+
+        API_KEY='ISCP123'
+
+      }
+
+      steps{
+
+        sh 'env'
+
+      }
+
+    }
+
+  }
+
 }
