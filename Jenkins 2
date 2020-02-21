@@ -4,6 +4,7 @@ stages{
       stage('Build'){
        steps{
         sh 'ls'
+        checkout scm
         }
        }
         stage('Deploy'){
