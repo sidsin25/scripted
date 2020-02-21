@@ -13,7 +13,7 @@
   environment{
 
     USERNAME='siddharth'
-
+    GITHUB_KEY= credentials('bba9c04d-282d-4b3d-9903-1c93dd7a2962')
   }
 
   stages{
